@@ -1,0 +1,70 @@
+.modalwindow {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(128, 128, 128, 0.575);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalwindowBlock {
+    padding: 40px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    width: 400px;
+    
+}
+.modalwindowBlock > h1 {
+    align-items: center;
+    justify-content: center;
+}
+.modalwindowBlock > div {
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    display: flex;
+    flex-direction: column;
+}
+.modalopen {
+    display: flex;
+}
+
+.productModal {
+    padding: 20px;
+    border-radius: 20px;
+    background-color: white;
+    display: flex;
+    width: 600px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.productModal > div > button {
+    width: 300px;
+    padding: 10px;
+}
+
+.price{
+ justify-content: center;
+ align-items: center;
+ display: flex;
+ flex-direction: column;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
